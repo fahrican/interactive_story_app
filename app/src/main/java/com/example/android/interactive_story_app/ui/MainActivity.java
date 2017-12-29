@@ -38,4 +38,10 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(getString(R.string.key_name), anyName);
         startActivity(intent);
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        nameEditText.setText("");
+    }
 }

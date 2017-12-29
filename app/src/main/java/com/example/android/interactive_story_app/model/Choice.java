@@ -2,7 +2,7 @@ package com.example.android.interactive_story_app.model;
 
 public class Choice {
 
-    private  int textId;
+    private int textId;
     private int nextPage;
 
     public Choice(int textId, int nextPage) {
@@ -23,6 +23,7 @@ public class Choice {
     }
 
     public void setNextPage(int nextPage) {
+
         this.nextPage = nextPage;
     }
 }
